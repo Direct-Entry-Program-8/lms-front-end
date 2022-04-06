@@ -4,6 +4,11 @@
   "description": "LMS Front-End",
   "author": "Direct Entry Program 8 <dep8@ijse.lk> (https://ijse.lk)",
   "license": "MIT",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
   "dependencies": {
     "admin-lte": "^3.2.0"
   },

@@ -3,5 +3,11 @@
   "version": "1.0.0",
   "description": "LMS Front-End",
   "author": "Direct Entry Program 8 <dep8@ijse.lk> (https://ijse.lk)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "admin-lte": "^3.2.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.4.1"
+  }
 }

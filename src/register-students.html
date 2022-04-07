@@ -24,6 +24,8 @@
   <script type="module" defer src="../node_modules/admin-lte/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
   <!-- AdminLTE App -->
   <script type="module" defer src="../node_modules/admin-lte/dist/js/adminlte.js"></script>
+
+  <script defer src="ts/register-students.ts"></script>
 </head>
 <body class="hold-transition dark-mode sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
 <div class="wrapper">
@@ -134,19 +136,19 @@
                 <label class="col-form-label" for="txt-student-name">
                   Student Name
                 </label>
-                <input type="text" class="form-control is-valid" id="txt-student-name" placeholder="Enter student name">
+                <input type="text" class="form-control" id="txt-student-name" placeholder="Enter student name">
               </div>
               <div class="form-group">
                 <label class="col-form-label" for="txt-student-nic">
                   Student NIC
                 </label>
-                <input type="text" class="form-control is-valid" id="txt-student-nic" placeholder="Enter student nic">
+                <input type="text" class="form-control" id="txt-student-nic" placeholder="Enter student nic">
               </div>
               <div class="form-group">
                 <label class="col-form-label" for="txt-student-nic">
                   Student Email
                 </label>
-                <input type="text" class="form-control is-valid" id="txt-student-email"
+                <input type="text" class="form-control" id="txt-student-email"
                        placeholder="Enter student email">
               </div>
               <button type="submit" class="btn btn-success">Register Student</button>
